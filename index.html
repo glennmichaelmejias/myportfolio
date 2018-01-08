@@ -442,28 +442,29 @@
   //   });
 		
 		$(document).ready(function(){
-		var Shuffle = window.Shuffle;
-		var element = document.querySelector('.my-shuffle-container');
-		var sizer = element.querySelector('.my-sizer-element');
-		var shuffleInstance = new Shuffle(element, {
-		  itemSelector: '.picture-item',
-		  speed:800
-		});
+			var Shuffle = window.Shuffle;
+			var element = document.querySelector('.my-shuffle-container');
+			var sizer = element.querySelector('.my-sizer-element');
+			var shuffleInstance = new Shuffle(element, {
+			  itemSelector: '.picture-item',
+			  speed:800
+			});
+			$(".filter-options button").click(function(){
+				var thefilter = $(this).attr("data-group");
+				shuffleInstance.filter(thefilter);
+				if ($(".filter-button").removeClass("active")) {
+					$(this).removeClass("active");
+				}
+				$(this).addClass("active");
+				setTimeout(function(){
+					AOS.refresh();	
+				},1000);
+
+			});
 		});
 		
 
-  		$(".filter-options button").click(function(){
-  			var thefilter = $(this).attr("data-group");
-  			shuffleInstance.filter(thefilter);
- 			if ($(".filter-button").removeClass("active")) {
- 				$(this).removeClass("active");
-  			}
- 			$(this).addClass("active");
-  			setTimeout(function(){
-  				AOS.refresh();	
-  			},1000);
-			
-  		});
+  		
 		$(window).resize(function(){
 			AOS.refresh();
 		});

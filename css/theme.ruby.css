@@ -1,0 +1,70 @@
+/*style.css*/
+.navitem a{
+	color:#A72347 !important;
+}
+.navbar-brand{
+	color:#A72347 !important;
+}
+.pentagons {
+	color:#A72347;
+}
+.pentagon {
+    border-color: #A72347 transparent;
+}
+.pentagon:before{
+    border-color: transparent transparent #A72347;
+}
+.theabout{
+	background-color:#A72347;
+}
+.themyskills{
+	color:#A72347;
+}
+.skillprogressbar{
+	background-color:#A72347;
+}
+.nav-tabs>div.active>a{
+	color:#A72347 !important;
+	border-bottom: 3px solid #A72347 !important;
+}
+.nav-tabs>div>a:hover{
+	color:#A72347 !important;
+}
+.linkicon{
+	background-color: #A72347;
+}
+.linkicon:hover{
+	color:#A72347;
+}
+.contacttitle{
+	color:#A72347;
+}
+
+/*gallery.css*/
+.filter-button:hover,.filter-button.active{
+    background-color: #A72347;
+}
+.gallery_project:after{
+    background-color: #A72347;
+}
+
+/*timeline.css*/
+.timelinecontainer::after {
+    border: 4px solid #A72347;
+}
+
+/*pageloader.css*/
+.thepentagon{
+    border-color: #A72347 transparent;
+}
+.thepentagon::before{
+    border-color: transparent transparent #A72347;
+}
+
+/*themeselector.css*/
+.themeselector{
+	color:#A72347;
+}
+.thecontacts{
+	background-color: #A72347;
+}

@@ -414,34 +414,13 @@
 <script src="css/aos/dist/aos.js"></script>
 <script src="css/Shuffle/dist/shuffle.js"></script>
 <script>
-  //     $(".filter-button").click(function(){
-  //       var value = $(this).attr('data-filter');
-        
-
-  //       if(value == "all"){
-  //         // $(".filter").hide(500);
- 	// 		$('.filter').show(1000,function(){
- 	// 			AOS.refresh();
- 	// 		});
-           
-  //       }
-  //       else{
-  //       	$(".filter").not('.'+value).hide(1000,function(){
-  //       		AOS.refresh();
-  //       	});
-  //           $('.filter').filter('.'+value).show(1000);
-        	
-
-  //       }
-
-		// if ($(".filter-button").removeClass("active")) {
-		// 	$(this).removeClass("active");
-		// }
-		// $(this).addClass("active");
-
-  //   });
 		
-		$(document).ready(function(){
+		
+
+  		
+		
+	   	$(document).ready(function(){
+			
 			var Shuffle = window.Shuffle;
 			var element = document.querySelector('.my-shuffle-container');
 			var sizer = element.querySelector('.my-sizer-element');
@@ -461,14 +440,10 @@
 				},1000);
 
 			});
-		});
-		
-
-  		
-		$(window).resize(function(){
-			AOS.refresh();
-		});
-	   	$(document).ready(function(){
+			$(window).resize(function(){
+				AOS.refresh();
+			});
+			
 	   		setTimeout(function(){
 	   			$(".pageloader").addClass("thehide");
 	   			setTimeout(function(){
@@ -505,22 +480,24 @@
 
 	   		},300);
 
+			var isopen=false;
+			$(".themeselector").on('click',function(){
+				if(isopen==false){
+					$(".themeoptions").css("left","0px");
+					isopen=true;
+				}
+				else{
+					$(".themeoptions").css("left","-45px");
+					isopen=false;
+				}
+			});
+			$(".themeoptionsthetheme").on('click',function(){
+				$(".thetheme").attr("href",$(this).attr("value"));
+			});
+			
 	   	});
 
-	var isopen=false;
-	$(".themeselector").on('click',function(){
-		if(isopen==false){
-			$(".themeoptions").css("left","0px");
-			isopen=true;
-		}
-		else{
-			$(".themeoptions").css("left","-45px");
-			isopen=false;
-		}
-	});
-	$(".themeoptionsthetheme").on('click',function(){
-		$(".thetheme").attr("href",$(this).attr("value"));
-	});
+	
 
 </script>
 </html>

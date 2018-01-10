@@ -1,6 +1,6 @@
 //green #0EB4B2
 .navbar-brand{
-	font-family: courbold;
+	font-family: "courier new";
 }
 .navbar{
 	
@@ -15,7 +15,7 @@
 	font-size:17px;
 	margin:10px;
 	font-weight: bold;
-	font-family: courbold;
+	font-family: "courier new";
 	-webkit-transition: color .5s,padding-top .3s; /* Safari */
     transition: color .5s,padding-top .3s;
     cursor: pointer;
@@ -84,7 +84,7 @@
 }
 .ilovecoding{
 	overflow: hidden;
-	font-family: courbold;
+	font-family: "courier new";
 	min-height: 500px !important;
 }
 .pentagon:before{

@@ -355,7 +355,7 @@ body{
 
 }
 @font-face {
-    font-family: courdef;
+    font-family: "courier new";
     src: url(fonts/cour.TTF);
 }
 @font-face {

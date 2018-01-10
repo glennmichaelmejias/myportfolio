@@ -354,14 +354,3 @@ body{
 	}
 
 }
-@font-face {
-   // font-family: "courier new";
-    //src: url(fonts/cour.TTF);
-}
-@font-face {
-  //  font-family: "courier new";
-   // src: url(fonts/courbd.ttf);
-	
-}
-//@-webkit-keyframes move_eye { from { -webkit-transform: scale(0); } to { -webkit-transform:scale(1); }  }
-     //   @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }

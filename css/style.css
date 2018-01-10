@@ -353,6 +353,7 @@ body{
 	}
 	.johndoeimg{
 		width:50%;
+		padding:0px;
 	}
 }
 @media (max-width: 600px){
@@ -374,5 +375,6 @@ body{
 	}
 	.johndoeimg{
 		width:50%;
+		padding:0px;
 	}
 }

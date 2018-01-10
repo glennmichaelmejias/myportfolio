@@ -355,11 +355,11 @@ body{
 
 }
 @font-face {
-    font-family: "courier new";
-    src: url(fonts/cour.TTF);
+   // font-family: "courier new";
+    //src: url(fonts/cour.TTF);
 }
 @font-face {
-    font-family: "courier new";
+  //  font-family: "courier new";
    // src: url(fonts/courbd.ttf);
 	
 }

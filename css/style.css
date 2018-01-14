@@ -307,48 +307,48 @@ body {
 }
 @media (max-width:992px) {
     .ilovecoding .container {
-    margin-top: 0px!important;
-    // min-height: 613px!important;
-}
-.hometext {
-    padding: 0;
-}
-.themyskills .container {
-    margin: 0;
-    width: 100%}
-.skillitem {
-    width: 50%;
-    display: inline-block;
-}
-.sendemail, .sendmail>input {
-    width: 100%}
-.thecontacts>div {
-    width: 50%}
-.thecontacts>div {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.helloiam {
-    margin-left: 10px;
-}
-.johndoeimg {
-    width: 50%;
-    padding: 0;
-}
+	    margin-top: 0px!important;
+	    // min-height: 613px!important;
+	}
+	.hometext {
+	    padding: 0;
+	}
+	.themyskills .container {
+	    margin: 0;
+	    width: 100%}
+	.skillitem {
+	    width: 50%;
+	    display: inline-block;
+	}
+	.sendemail, .sendmail>input {
+	    width: 100%}
+	.thecontacts>div {
+	    width: 50%}
+	.thecontacts>div {
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+	.helloiam {
+	    margin-left: 10px;
+	}
+	.johndoeimg {
+	   	margin-left: 0px;
+	    padding: 0;
+	}
 }@media (max-width:600px) {
     .skillitem {
-    width: 100%}
-.nav-tabs>li {
-    width: 100%}
-.nav-tabs>div {
-    width: 100%}
-.thecontacts>div {
-    width: 100%}
-.helloiam {
-    margin-left: 10px;
-}
-.johndoeimg {
-    width: 50%;
-    padding: 0;
-}
+	    width: 100%}
+	.nav-tabs>li {
+	    width: 100%}
+	.nav-tabs>div {
+	    width: 100%}
+	.thecontacts>div {
+	    width: 100%}
+	.helloiam {
+	    margin-left: 10px;
+	}
+	.johndoeimg {
+	   margin-left: 0px;
+	    padding: 0;
+	}
 }
